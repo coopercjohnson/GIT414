@@ -9,11 +9,20 @@ header, nav, main, footer{
     padding:1rem;
 }
 
+li{
+    list-style: none;
+}
+
+html{
+    text-align: center;
+}
+
 /* medium */
 @media only screen and (min-width: 600px){
     nav ul{
         display: flex;
         gap: 1rem;
+        justify-content: center;
     }
 
     main{
